@@ -16,7 +16,9 @@
   background-color: red;
   width: 20%;
   height: 100%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #azul {
@@ -25,7 +27,9 @@
   background-color: blue;
   width: 20%;
   height: 100%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #verde {
@@ -34,5 +38,7 @@
   background-color: green;
   width: 20%;
   height: 100%;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
