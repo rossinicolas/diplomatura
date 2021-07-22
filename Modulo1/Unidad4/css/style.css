@@ -1,0 +1,20 @@
+h2 {
+  color: blue;
+}
+
+#tituloFoto {
+  color: blue;
+  background-color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#tituloDatos {
+  color: blue;
+  background-color: yellowgreen;
+  font-family: sans-serif;
+}
+
+.resaltado {
+  font-style: italic;
+  font-size: large;
+}
