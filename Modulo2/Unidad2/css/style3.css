@@ -1,0 +1,38 @@
+#contenedor {
+  border: 1px solid #aaa;
+  background-color: #dddddd;
+  margin: 0 auto;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  /* align-items: ; */
+  justify-content: space-between;
+}
+
+#rojo {
+  color: white;
+  font-size: large;
+  background-color: red;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+
+#azul {
+  color: white;
+  font-size: large;
+  background-color: blue;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
+
+#verde {
+  color: white;
+  font-size: large;
+  background-color: green;
+  width: 20%;
+  height: 100%;
+  text-align: center;
+}
