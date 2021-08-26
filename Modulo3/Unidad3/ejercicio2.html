@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 2</title>
+  </head>
+  <body>
+    <script>
+      var arreglo = [];
+      var mayor = 0;
+
+      arreglo = prompt(
+        "Ingrese un listado de números seaparados por coma:"
+      ).split(",");
+
+      //   3, 6, 2, 56, 32, 5, 89, 32
+
+      for (i = 0; i < arreglo.length; i++) {
+        if (parseInt(arreglo[i]) > parseInt(mayor)) {
+          mayor = arreglo[i];
+        }
+      }
+
+      document.write(
+        `Del listado de numeros ingresados [${arreglo}] el mayor número es: ${mayor}`
+      );
+    </script>
+  </body>
+</html>
