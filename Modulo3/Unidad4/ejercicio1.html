@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio 1</title>
+    <link rel="stylesheet" href="ejercicio1.css" />
+  </head>
+  <body>
+    <div id="contenedor">
+      <button id="rojo" onclick="setFondo('red')">Rojo</button>
+      <button id="azul" onclick="setFondo('blue')">Azul</button>
+      <button id="verde" onclick="setFondo('green')">Verde</button>
+    </div>
+    <script>
+      var fondo;
+      var contenedor = document.getElementById("contenedor");
+      function setFondo(color) {
+        switch (color) {
+          case "red":
+            contenedor.style = "background: red";
+            break;
+          case "blue":
+            contenedor.style = "background: blue";
+            break;
+          case "green":
+            contenedor.style = "background: green";
+            break;
+
+          default:
+            break;
+        }
+      }
+    </script>
+  </body>
+</html>
