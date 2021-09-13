@@ -1,0 +1,49 @@
+.categoria {
+  border: 1px solid gray;
+  border-radius: 0.7em;
+  margin: 1em 0;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.categoria img {
+  max-width: 35%;
+  border-radius: 0.8em;
+}
+
+.categoria .info {
+  width: 60%;
+}
+
+.categoria .info h4 {
+  color: orange;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: 500;
+  margin: 0 0 1em;
+  border-bottom: 1px solid orange;
+  padding-bottom: 0.5em;
+}
+
+.categoria .info p {
+  font-size: 0.8em;
+  line-height: 1.2em;
+}
+
+.categoria:nth-child(even) img {
+  float: right;
+  margin: 0 0 0 1em;
+}
+
+.categoria:nth-child(even) .info {
+  float: left;
+}
+
+.categoria:nth-child(odd) img {
+  float: left;
+  margin: 0 1em 0 0;
+}
+
+.categoria:nth-child(odd) .info {
+  float: right;
+}
