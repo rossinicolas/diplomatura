@@ -1,0 +1,43 @@
+.separador {
+  height: 4px;
+  width: 960px;
+  background: #e3e3e3;
+}
+
+.historia p {
+  font-size: 0.8em;
+}
+
+.personas {
+  overflow: hidden;
+}
+
+.persona {
+  width: 18%;
+  border: 1px solid gray;
+  border-radius: 0.25em;
+  float: left;
+  margin-left: 2.25%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.persona img {
+  border-radius: 3%;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  margin: 0.8em 0 1em;
+  max-width: 95%;
+}
+
+.persona h5 {
+  font-size: 0.9em;
+}
+
+.persona h6 {
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.persona:first-child {
+  margin-left: 0;
+}

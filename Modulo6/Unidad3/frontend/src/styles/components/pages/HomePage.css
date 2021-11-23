@@ -1,0 +1,29 @@
+.homeimg {
+  margin-bottom: 1.5em;
+}
+
+.columnas {
+  overflow: hidden;
+}
+
+.bienvenidos,
+.redes {
+  box-sizing: border-box;
+}
+
+.bienvenidos {
+  width: 75%;
+  padding-right: 2em;
+}
+
+.redes {
+  width: 25%;
+}
+
+.iconoRedes {
+  background-color: gray;
+  padding: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
